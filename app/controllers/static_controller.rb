@@ -7,4 +7,9 @@ class StaticController < ApplicationController
 
   def team
   end
+
+  def homy_page
+    @gossips = Gossip.all
+  end
+  
 end
